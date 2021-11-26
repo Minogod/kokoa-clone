@@ -1,0 +1,62 @@
+.welcome-header {
+    margin: 60px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+  }
+  .welcome-header__tittle {
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+  .welcome-header__text {
+    width: 55%;
+    opacity: 0.45;
+  }
+  
+  #login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    margin-bottom: 35px;
+    font-weight: 300;
+  }
+  #login-form input {
+    border: none;
+    padding: 18px 0px;
+    font-size: 18px;
+  }
+  #login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    transition: border-color 0.5s ease-in-out;
+  }
+  #login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  /* ::placeholder = :: */
+  #login-form input:focus {
+    border-color: var(--yellow);
+  }
+  
+  #login-form input[type="password"] {
+    margin-bottom: 20px;
+  }
+  #login-form input[type="submit"] {
+    font-weight: 500;
+    background-color: var(--yellow);
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* 마우스커서 포인터로 바꿈 */
+  }
+  
+  #login-form a {
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 400;
+    /* inherit = 상위속성 컬러와 동일하게해줌  */
+  }
