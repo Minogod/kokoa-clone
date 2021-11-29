@@ -14,3 +14,17 @@
   color: rgba(0, 0, 0, 0.3);
   padding: 0px 15px;
 }
+
+.friends-screen__channel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.3);
+  padding: 350px var(--horizontal-space);
+}
+.friends-screen__channel-header i {
+  justify-content: flex-end;
+}
