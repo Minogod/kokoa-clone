@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 50px 20px var(--horizontal-space) var(--horizontal-space);
-
+  margin-bottom: 10px;
 }
 .screen-header__title {
   font-size: 40px;
